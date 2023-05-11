@@ -1,0 +1,273 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+
+  /* Because we want header to be sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #e6e6e6;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 24px;
+  border: 2px solid black;
+  color: #3d10de;
+  background: white;
+}
+
+.blog-img {
+  height: 386px;
+  width: 550px;
+  left: 100px;
+  top: 366px;
+  border-radius: 24px;
+}
+
+.Boldo-outer-main-sec {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.blog-heading {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 12px;
+}
+.blog-heading-outer {
+  text-align: center;
+  margin-bottom: 67.5px;
+}
+.main-heading {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43.25px;
+  line-height: 34px;
+  color: #0a2640;
+  margin-left: 12px;
+}
+a {
+  text-decoration: none;
+}
+.blog-lines {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 84px;
+}
+.blog-content {
+  display: flex;
+  gap: 100px;
+  border-bottom: 1px solid #0a2640;
+  padding-bottom: 72px;
+}
+.blog-dscp {
+  padding: 70px 0 79px 0;
+}
+.catagory {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  margin-right: 12px;
+}
+.blog-date {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+}
+.blog-main-content {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+}
+.blog-profile {
+  gap: 12px;
+  align-items: center;
+}
+.latest-news-heading {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  padding-top: 72px;
+  padding-bottom: 40px;
+}
+
+.latest-news-img {
+  width: 300px;
+  height: 209px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+.latest-news-content {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  padding-bottom: 20px;
+}
+.latest-news-main {
+  max-width: 300px;
+  margin-bottom: 24px;
+}
+
+.button-outer {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  height: 60px;
+  width: 219px;
+  left: 591px;
+  top: 2057px;
+  border-radius: 56px;
+  padding: 16px 56px 16px 56px;
+  border: 2px solid #0a2640;
+  font-family: Open Sans;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.form-cart {
+  height: 391px;
+  width: 1200px;
+  left: 0px;
+  top: 0px;
+  border-radius: 12px;
+
+  /* position: absolute; */
+  /* left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%; */
+
+  /* Dark Blue */
+
+  background: #0a2640;
+  border-radius: 12px;
+}
+
+.form-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.p-2 {
+  height: 139px;
+  width: 716px;
+  margin-top: 72px;
+  margin-right: 242px;
+  margin-left: 242px;
+  margin-bottom: 180px;
+  border-radius: nullpx;
+
+  font-family: Manrope;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.form-button {
+  height: 60px;
+  width: 210px;
+  left: 692px;
+  top: 259px;
+  border-radius: 56px;
+  padding: 16px 56px 16px 56px;
+  border: 2px solid #65e4a3;
+  background-color: #65e4a3;
+}
+.in-t {
+  height: 56px;
+  width: 370px;
+  left: 298px;
+  top: 261px;
+  border-radius: 240px;
+  padding: 24px;
+}
+.latest-news-outer {
+  display: flex;
+  flex-flow: wrap;
+  gap: 12%;
+  margin-bottom: 20px;
+}
+
+.input-form-subscribe {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  position: absolute;
+  top: 261px;
+  left: 298px;
+}
+
+
+
+
